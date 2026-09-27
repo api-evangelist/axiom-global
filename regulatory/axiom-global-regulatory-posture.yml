@@ -1,0 +1,25 @@
+generated: 2026-09-27
+method: probed
+source: https://axiomglobal.com/privacy-policy
+signals:
+  data_retention:
+    evidence:
+      - source: https://axiomglobal.com/privacy-policy
+        http_status: 200
+        fetched: "true"
+        quote: "The data we collect from you will be stored for no longer than necessary. The length of time we retain said information will be determined based upon the following criteria: the length of time your personal information remains relevant; the length of time it is reasonable to keep records to demonstrate that we have fulfilled our duties and obligations; any limitation periods within which claims might be made; any retention periods prescribed by law or recommended by regulators, professional bodies or associations; the type of contract we have with you, the existence of your consent, and our legitimate interest in keeping such information as stated in this Policy."
+    note: Retention period is limited to necessity and legal/regulatory requirements.
+  data_subject_request:
+    evidence:
+      - source: https://axiomglobal.com/privacy-policy
+        http_status: 200
+        fetched: "true"
+        quote: "If you elect not to disclose personally identifiable information to us, we reserve the right not to register you as a user or provide you with any products or services."
+    note: Indicates user can refuse to provide data, affecting data subject rights.
+  incident_notification:
+    evidence:
+      - source: https://axiomglobal.com/privacy-policy
+        http_status: 200
+        fetched: "true"
+        quote: "If at any point in time Axiom decides to make use of any personally identifiable information on file, in a manner vastly different from that which was stated when this information was initially collected, the user or users shall be promptly notified by email."
+    note: Commitment to notify users of significant changes or incidents.
